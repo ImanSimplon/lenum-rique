@@ -1,0 +1,132 @@
+/* header */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    border: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Oranienbaum', serif;
+    font-size: 18px;
+
+} 
+a{
+    background-color: #708480;
+    border-radius: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-family: 'Oranienbaum';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 74px;
+display: flex;
+justify-content: center;
+margin-bottom: 47px;
+}
+
+.accueil{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.honte{
+    border: 2px solid black;
+    width: 45%;
+    margin-top: 34px;
+    margin-left: 99px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.video{
+    margin-right: 40px;
+}
+
+.Tableau{
+    border: 2px solid black;
+    width: 90%;
+    margin-top: 34px;
+    margin-left: 99px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.Mots, .Facteurs, .Enjeux{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 30px;
+
+}
+
+
+.Facteurs{
+    margin: 0px 50px 0px 50px;
+}
+
+.Tableau h2 {
+    display: flex;
+   justify-content: flex-start;
+   font-size: 24px;
+   text-align: center;
+   margin-bottom: 2%;
+
+}
+
+.section3, .section4, .section5, .section6, .section7{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 113px;
+    margin-left: 99px;
+
+
+}
+.section3 img, .section4 img, .section5 img, .section6 img, .section7 img{
+margin-right: 140px;
+}
+.TexteDroite{
+    margin-right: 43px;
+}
+
+.ComparaisonG, .TexteDroite7{
+    width: 35%;
+}
+
+.TitreDroite{
+    margin-top: 40px;
+}
+
+.TexteDroite7{
+    margin-left: 60px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* .section7  border: solid black;
+    text-align: right;{ */
+
+    
+
+
+
+
